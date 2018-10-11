@@ -3,5 +3,5 @@
 #mkdir dashboard 
 #cd dashboard 
 #vim Dockerfile 
-FROM k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.0
+FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.7.1
 MAINTAINER lsl132@126.com 
